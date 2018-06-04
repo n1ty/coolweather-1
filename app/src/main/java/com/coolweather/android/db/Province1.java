@@ -3,14 +3,15 @@ package com.coolweather.android.db;
 import org.litepal.crud.DataSupport;
 
 /**
- * Created by admin on 2018/5/31.
+ * Created by admin on 2018/6/4.
  */
 
-public class Province extends DataSupport {
+public class Province1 extends DataSupport {
+
     private int id;
     private String provinceName;
     private int provinceCode;
-    private int getId(){
+    public  int getId(){
         return id;
     }
     public void setId(int id){
@@ -28,4 +29,5 @@ public class Province extends DataSupport {
     public void setProvinceCode(int provinceCode){
         this.provinceCode=provinceCode;
     }
+
 }
