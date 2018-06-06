@@ -23,8 +23,6 @@
             android:layout_centerVertical="true"
             android:background="@drawable/ic_back"
             android:id="@+id/back_button"/>
-
-
     </RelativeLayout>
     <ListView
         android:layout_width="match_parent"
